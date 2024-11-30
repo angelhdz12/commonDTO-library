@@ -13,6 +13,21 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>commonDTO-library</name>
 	<description>Shared library for DTOs</description>
+
+	<!-- Add repository configuration for dependency management -->
+	<distributionManagement>
+		<repository>
+			<id>commonDTO-library</id>
+			<name>Reece Releases DTOs repository</name>
+			<url>https://github.com/angelhdz12/commonDTO-library</url>
+		</repository>
+		<snapshotRepository>
+			<id>reece-snapshots</id>
+			<name>Reece Snapshots Repository</name>
+			<url>https://artifactory.example.com/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<url/>
 	<licenses>
 		<license/>
